@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas dos Alunos</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1>Notas dos Alunos</h1>
+    <div id="inputForm">
+        <label for="nomeAluno">Nome do Aluno:</label>
+        <input type="text" id="nomeAluno"><br><br>
+        <label for="nota1">Nota 1:</label>
+        <input type="number" id="nota1" min="0" max="10"><br><br>
+        <label for="nota2">Nota 2:</label>
+        <input type="number" id="nota2" min="0" max="10"><br><br>
+        <button onclick="adicionarAluno()">Adicionar Aluno</button>
+    </div>
+    <div id="listaAlunos"></div>
+
+    <script src="notas.js"></script>
+</body>
+</html>
